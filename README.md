@@ -6,21 +6,20 @@ reflex가 적용되어 있어 Hot-reload가 가능하다.
 
 - Docker
 - Golang
-- ReactJS
 
-### Requirements
+## Requirements
 
- - Docker
- - docker-compose
+- Docker
+- docker-compose
 
-### 개발환경 구성
+## 개발환경 구성
 
-```
+``` bash
 $ sh run.sh start
 ```
 
-### 테스트
+## 테스트
 
-```
+``` bash
 $ go test -v ./...
 ```
